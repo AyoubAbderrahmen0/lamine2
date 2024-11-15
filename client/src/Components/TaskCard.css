@@ -1,0 +1,44 @@
+/* TableStyles.css */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.caption {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.th, .td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.th {
+    background-color: #4CAF50; /* En-tête vert */
+    color: white;
+}
+
+.tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gris clair pour les lignes paires */
+}
+
+.tr:hover {
+    background-color: #ddd; /* Gris foncé au survol */
+}
+
+.tfoot {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.tfoot-th {
+    text-align: right; /* Alignement à droite dans le pied de page */
+}
